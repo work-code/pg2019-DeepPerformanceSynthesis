@@ -1,1 +1,1 @@
-# pg2019-Deep-Performance-Synthesis
+# PG2019: Deep Performance Synthesis
