@@ -1,18 +1,24 @@
 Hi there, thank you for your attention of our work.
 
-This folder contains the synthetic dataset, which is used in our experiment section.
+This is a detailed introduction of the real datasets used in our paper.
 
-Due to the fact that the file is too large (11.9GB), we have uploaded this dataset to the cloud drive.
+We collect four real actors T_samba, I_squat, Dan_Longjunmp3 and dance_pop.
 
-The download link is: https://drive.google.com/drive/folders/1bvY6IMSn1whv6C0fcAaxglkfm77My-Wt?usp=sharing
+Due to the fact that the authors of these datasets do not allow us to redistribute the datasets,
+
+we will provide the links to download these datasets.
+
+We feel deep sorry for this point.
+
+T_smaba: https://people.csail.mit.edu/drdaniel/mesh_animation/
+
+I_squat: https://people.csail.mit.edu/drdaniel/mesh_animation/
+
+Dan_Longjunmp3: http://cvssp.org/cvssp3d/
+
+dance_pop: http://cvssp.org/cvssp3d/
 
 All you need do is prepare a good network to download the data. ^_^ 
-
-These datas are collected from the paper [zhu et al. CVPR2018].
-
-If you would like to use them in your research work, please cite the paper 
-
-[zhu et al. CVPR2018]: Zhu, Hao, et al. View extrapolation of human body from a single image. CVPR2018.
 
 If you have any questions, please don't hesitate to contact us.
 
