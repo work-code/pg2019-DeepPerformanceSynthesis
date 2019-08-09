@@ -26,6 +26,7 @@ Folder's directory structure
 
 *******************************************************************
 Environment condiguration
+
 1. Python 3.6.3
 
 2. PyTorch 0.4.1
