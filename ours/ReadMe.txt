@@ -13,7 +13,6 @@ Folder's directory structure
                    
                       image_generation --- scripts --- data_convert				  Converting images's (used in *NOVEL-VIEW PREDICTION*) format: from '.jpg' to '.pt'
 
-					  
 2. view_synthesis --- view_synthesis   --- scripts                                Performing the training and testing processes of *NOVEL-VIEW PREDICTION*
 
                       view_synthesis   --- scripts2                               Computing the dataset used for 'fine-tuning' process 
