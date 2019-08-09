@@ -35,7 +35,7 @@ Environment condiguration
 4. Matlab 2017a
 *******************************************************************
 
-In these codes, the path to read data is temporarily set as our local path.
+In these codes, the path for reading the data is temporarily set as our local path.
 
 Please remember to change it to your local path.
 
