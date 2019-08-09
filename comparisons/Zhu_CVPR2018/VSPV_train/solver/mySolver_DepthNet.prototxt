@@ -1,0 +1,14 @@
+net: "./model/DepthNet_train.prototxt"
+
+average_loss: 20
+lr_policy: "step"
+stepsize: 1000
+gamma: 0.98
+iter_size: 1 
+base_lr: 0.0001
+momentum: 0.9
+max_iter: 80000
+weight_decay: 0.0005
+snapshot: 5000
+snapshot_prefix: "./snapshot/DN/iter"
+test_initialization: false
