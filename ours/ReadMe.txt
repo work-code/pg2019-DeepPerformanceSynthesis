@@ -2,7 +2,7 @@ Hi there, thank you for your attention of our work.
 
 This folder contains the source codes used in our paper.
 
-I will give a detailed introduction of the folder's directory structure and environment condiguration of these codes.
+We will give a detailed introduction of the folder's directory structure and environment condiguration of these codes.
 
 *******************************************************************
 Folder's directory structure
