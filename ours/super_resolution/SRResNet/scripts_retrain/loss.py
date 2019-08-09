@@ -7,6 +7,7 @@ class GeneratorLoss(nn.Module):
     def __init__(self):
         super(GeneratorLoss, self).__init__()
         vgg = vgg16(pretrained=False)
+        ## Please down vgg16 to '/model/...'folder. The download link is: https://drive.google.com/file/d/17YXy3Gk0l47BJqNZDqvNhfVPi9EkVJE7/view?usp=sharing
         vgg.load_state_dict(torch.load('G:/2-paper/ResearchWork5/ResearchWork5_zz_finalversion/code/ours/super_resolution/SRResNet/scripts/model/vgg16-397923af.pth'))
         #vgg = vgg.load_state_dict(torch.load())
         loss_network = nn.Sequential(*list(vgg.features)[:31]).eval()

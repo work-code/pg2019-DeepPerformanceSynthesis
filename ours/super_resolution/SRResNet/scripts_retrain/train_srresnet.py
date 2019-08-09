@@ -27,7 +27,7 @@ parser.add_argument("--step", type=int, default=200, help="Sets the learning rat
 parser.add_argument("--resume", default="", type=str, help="Path to checkpoint (default: none)")
 parser.add_argument("--threads", type=int, default=0, help="Number of threads for data loader to use, Default: 1")
 parser.add_argument("--vgg_loss", action="store_true", default=True, help="Use content loss?")
-parser.add_argument('--log_interval', type=int, default=20, metavar='N')
+parser.add_argument('--log_interval', type=int, default=1, metavar='N')
 parser.add_argument('--upscale_factor', default=4, type=int, choices=[2, 4, 8],
                     help='super resolution upscale factor')
 parser.add_argument('--no-cuda', action='store_true', default=False)
@@ -54,7 +54,7 @@ class AverageMeter(object):
 
 def adjust_learning_rate(optimizer, epoch):
     """Sets the learning rate to the initial LR decayed by 10"""
-    lr = args.lr 
+    lr = args.lr
     return lr 
 
 def SaveRecord(data_dir,epoch,netG, netD,generator_loss_train,a_loss_train,p_loss_train,i_loss_train,t_loss_train,discriminator_loss_train,
@@ -328,7 +328,7 @@ def train(train_loader, optimizerG, optimizerD, netG, netD, generator_criterion,
         
     return generator_loss.avg,a_loss.avg,p_loss.avg,i_loss.avg,t_loss.avg, discriminator_loss.avg
 
-def main(step,dataset,data_dir,data_dir_bias,model_name):
+def main(step,dataset,data_dir):
 
     global args, model, netContent,lr
     
@@ -369,10 +369,10 @@ def main(step,dataset,data_dir,data_dir_bias,model_name):
     kwargs = {'num_workers': 0, 'pin_memory': True} if args.cuda else {}
 
     
-    train_loader = torch.utils.data.DataLoader(ShepardMetzler(root_dir=data_dir_bias + '/torch_super/' +  model_name +'/train/' + '/bias_0/'),
+    train_loader = torch.utils.data.DataLoader(ShepardMetzler(root_dir=data_dir + '/torch' + '/train/'),
                                          batch_size=args.batch_size,
                                          shuffle=True, **kwargs)
-    test_loader = torch.utils.data.DataLoader(ShepardMetzler(root_dir=data_dir_bias + '/torch_super/' + model_name +'/test/' + '/bias_0/'),
+    test_loader = torch.utils.data.DataLoader(ShepardMetzler(root_dir=data_dir + '/torch' + '/test/'),
                                          batch_size = args.test_batch_size,
                                          shuffle=False, **kwargs)
 
@@ -432,11 +432,7 @@ def main(step,dataset,data_dir,data_dir_bias,model_name):
 
 if __name__ == "__main__":
     dataset  = 'PVHM'
-    model_name = 'model_28400'
-    data_dir_bias = 'G:/2-paper/ResearchWork5/ResearchWork5_zz_finalversion/code/ours/super_resolution/SRResNet/data/' + dataset 
-    data_dir = 'G:/2-paper/ResearchWork5/ResearchWork5_zz_finalversion/code/ours/super_resolution/SRResNet/data/' + dataset + '/retrain/'
-    if os.path.exists(data_dir) == False:
-        os.mkdir(data_dir)
+    data_dir = 'G:/2-paper/ResearchWork5/ResearchWork5_zz_finalversion/code/ours/super_resolution/SRResNet/data/' + dataset
     
     directoy = data_dir + '/model/'
     if os.path.exists(directoy) == False:
@@ -450,5 +446,5 @@ if __name__ == "__main__":
     if os.path.exists(directoy) == False:
         os.mkdir(directoy)
         
-    step = 1
-    main(step,dataset,data_dir,data_dir_bias,model_name)
+    step = 0
+    main(step,dataset,data_dir)
