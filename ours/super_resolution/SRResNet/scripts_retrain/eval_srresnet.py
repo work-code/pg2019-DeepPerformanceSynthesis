@@ -75,10 +75,10 @@ def main(step,data_bias,data_dir,directoy):
     netG.set_multiple_gpus()
     netD.set_multiple_gpus()
     if step > 0:
-        model_dir = data_bias+'/model/modelG_'+str(step)+'.pkl'
+        model_dir = data_bias+'/retrain/model/modelG_'+str(step)+'.pkl'
         netG.load_state_dict(torch.load(model_dir))
         
-        model_dir = data_bias+'/model/modelD_'+str(step)+'.pkl'
+        model_dir = data_bias+'/retrain/model/modelD_'+str(step)+'.pkl'
         netD.load_state_dict(torch.load(model_dir))
     if args.cuda:
         netG = netG.cuda()
@@ -105,7 +105,7 @@ if __name__ == "__main__":
     dataset  = 'PVHM'
     data_bias = 'G:/2-paper/ResearchWork5/ResearchWork5_zz_finalversion/code/ours/super_resolution/SRResNet/data/' + dataset +'/'
     
-    directoy_bias = data_bias + '/eval_raw/'
+    directoy_bias = data_bias + '/eval_retrain/'
     if os.path.exists(directoy_bias) == False:
         os.mkdir(directoy_bias)
     
