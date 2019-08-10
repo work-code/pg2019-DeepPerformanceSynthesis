@@ -9,19 +9,19 @@ Folder's directory structure
 
                        Folder Name                                               Function
 
-1. view_synthesis --- image_generation --- scripts --- data_generation            Rendering images for *NOVEL-VIEW PREDICTION* and *DETAIL ENHANCEMENT*          
+1. view_synthesis --- image_generation --- scripts --- data_generation      Rendering images for *NOVEL-VIEW PREDICTION* and *DETAIL ENHANCEMENT*          
                    
                       image_generation --- scripts --- data_convert				  Converting images's (used in *NOVEL-VIEW PREDICTION*) format: from '.jpg' to '.pt'
 
-2. view_synthesis --- view_synthesis   --- scripts                                Performing the training and testing processes of *NOVEL-VIEW PREDICTION*
+2. view_synthesis --- view_synthesis   --- scripts                          Performing the training and testing processes of *NOVEL-VIEW PREDICTION*
 
-                      view_synthesis   --- scripts2                               Computing the dataset used for 'fine-tuning' process 
+                      view_synthesis   --- scripts2                         Computing the dataset used for 'fine-tuning' process 
  
-3. super_resolution --- DataVonvert    --- scripts                                Converting images's (used in *DETAIL ENHANCEMENT*) format: from '.jpg' to '.pt'
+3. super_resolution --- DataVonvert    --- scripts                          Converting images's (used in *DETAIL ENHANCEMENT*) format: from '.jpg' to '.pt'
 
-4. super_resolution --- SRResNet       --- scripts                                Performing the training and testing processes of *DETAIL ENHANCEMENT*
+4. super_resolution --- SRResNet       --- scripts                          Performing the training and testing processes of *DETAIL ENHANCEMENT*
 
-                    --- SRResNet       --- scripts_retrain                        Performing the fine-tuning process of *DETAIL ENHANCEMENT*
+                    --- SRResNet       --- scripts_retrain                  Performing the fine-tuning process of *DETAIL ENHANCEMENT*
 *******************************************************************
 
 *******************************************************************
