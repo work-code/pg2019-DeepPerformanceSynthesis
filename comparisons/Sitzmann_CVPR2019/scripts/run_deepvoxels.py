@@ -44,7 +44,7 @@ parser.add_argument('--no_occlusion_net', action='store_true', default=False,
 parser.add_argument('--num_trgt', type=int, default=2, required=False,
                     help='How many novel views will be generated at training time.')
 
-parser.add_argument('--checkpoint', default='model-epoch_104_iter_50000.pth',
+parser.add_argument('--checkpoint', default='',
                     help='Path to a checkpoint to load model weights from.')    
 parser.add_argument('--start_epoch', type=int, default=0,
                     help='Start epoch')
