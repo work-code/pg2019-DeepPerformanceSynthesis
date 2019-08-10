@@ -6,7 +6,7 @@ This folder contains the comparison code [Zhu et al. CVPR2018] used in our paper
 
 We will give a detailed introduction of the folder's directory structure and environment condiguration of this code.
 
-This data is provided by the original author of paper [Zhu et al. CVPR2018].
+This code is provided by the original author of paper [Zhu et al. CVPR2018].
 
 *******************************************************************
 Folder's directory structure
