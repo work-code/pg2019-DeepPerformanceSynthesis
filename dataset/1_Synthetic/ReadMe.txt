@@ -10,8 +10,6 @@ All you need do is prepare a good network to download the data. ^_^
 
 These datas are collected from the paper [zhu et al. CVPR2018].
 
-If you would like to use them in your research work, please cite the paper 
-
 [zhu et al. CVPR2018]: Zhu, Hao, et al. View extrapolation of human body from a single image. CVPR2018.
 
 If you have any questions, please don't hesitate to contact us.
