@@ -7,7 +7,7 @@ We will give a detailed introduction of the folder's directory structure and env
 *******************************************************************
 Folder's directory structure
 
-                        Folder Name                                               Function
+                        Folder Name                                           Function
 
 1. view_synthesis   --- image_generation --- scripts --- data_generation      Rendering images for *NOVEL-VIEW PREDICTION* and *DETAIL ENHANCEMENT*
 
