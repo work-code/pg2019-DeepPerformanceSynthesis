@@ -6,26 +6,26 @@ This github page contains all the code and data used in our paper.
 
 We will give a detailed introduction of the folder's directory structure as follows.
 
-**************************************************************************************************************************************************
+******************************************************************************************************************************************
 
 Folder's directory structure
 
-                               Folder Name                             Function
-	  
-1. dataset          ---       1_Synthetic                             This folder contains the download link of the synthetic data used in our paper
+                                            Folder Name                             Function
+	     
+1. dataset                  ---       1_Synthetic                             This folder contains the download link of the synthetic data used in our paper
 
-                    ---       2_Real                                  This folder contains the download link of the real data used in our paper
-		  
-2. comparisons      ---       Zhu_CVPR2018                            This folder contains the code of the paper [Zhu et al. CVPR2018]
+                                 ---       2_Real                                     This folder contains the download link of the real data used in our paper
+	 	  
+2. comparisons          ---       Zhu_CVPR2018                        This folder contains the code of the paper [Zhu et al. CVPR2018]
  
-                    ---       Zeng_ECCV2018                           This folder contains the code of the paper [Zeng et al. ECCV2018]
+                                 ---       Zeng_ECCV2018                      This folder contains the code of the paper [Zeng et al. ECCV2018]
 					
-					---       Sitzmann_CVPR2019                       This folder contains the code of the paper [Sitzmann et al. CVPR2019]
+		 ---       Sitzmann_CVPR2019                This folder contains the code of the paper [Sitzmann et al. CVPR2019]
 					
-3. ours                                                               This folder contains the code of our method
+3. ours                                                                                 This folder contains the code of our method
 
 
-**************************************************************************************************************************************************
+*******************************************************************************************************************************************
 
 [Zhu et al. CVPR2018]: Zhu, Hao, et al. View extrapolation of human body from a single image. CVPR. 2018.
 
@@ -37,11 +37,11 @@ In each directory, there has a text "ReadMe", we have detailed
 
                                                              the environment condiguration,
 															 
-															 the download link of the dataset, 
+			             the download link of the dataset, 
 															 
-															 the functional description of the code,
+			             the functional description of the code,
 															 
-															 and the code usage steps.
+			             and the code usage steps.
 
 If you have any questions, please don't hesitate to contact us. ^_^
 
