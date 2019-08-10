@@ -64,10 +64,6 @@ Code usage steps
 
 *******************************************************************
 
-Also, there has a "README.md" file in the directory "\Sitzmann_CVPR2019\scripts", 
-
-this file is provided by the original author.
-   
 If you have any questions, please don't hesitate to contact us.
 
 You can open an issue through the button "Issues" on the github.
