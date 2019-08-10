@@ -32,7 +32,7 @@ Folder's directory structure
 
 [Sitzmann et al. ECCV2018]: Sitzmann, Vincent, et al. Deepvoxels: Learning persistent 3d feature embeddings. CVPR. 2019.
 
-In each directory, there has a text "ReadMe", we have detailed
+In each directory, there has a text "ReadMe.txt", we have detailed
 
                          the environment condiguration,
 															 
