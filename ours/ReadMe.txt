@@ -9,7 +9,8 @@ Folder's directory structure
 
                        Folder Name                                               Function
 
-1. view_synthesis --- image_generation --- scripts --- data_generation      Rendering images for *NOVEL-VIEW PREDICTION* and *DETAIL ENHANCEMENT*          
+1. view_synthesis --- image_generation --- scripts --- data_generation      Rendering images for *NOVEL-VIEW PREDICTION* and *DETAIL ENHANCEMENT*
+
                       image_generation --- scripts --- data_convert				  Converting images's (used in *NOVEL-VIEW PREDICTION*) format: from '.jpg' to '.pt'
 
 2. view_synthesis --- view_synthesis   --- scripts                          Performing the training and testing processes of *NOVEL-VIEW PREDICTION*
