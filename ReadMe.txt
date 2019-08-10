@@ -19,7 +19,7 @@ Folder's directory structure
  
                 ---  Zeng_ECCV2018           This folder contains the code of the paper [Zeng et al. ECCV2018]
 					
-		        ---  Sitzmann_CVPR2019       This folder contains the code of the paper [Sitzmann et al. CVPR2019]
+	        ---  Sitzmann_CVPR2019       This folder contains the code of the paper [Sitzmann et al. CVPR2019]
 					
 3. ours                                      This folder contains the code of our method
 
@@ -34,7 +34,7 @@ Folder's directory structure
 
 In each directory, there has a text "ReadMe.txt", we have detailed
 
-                         the environment condiguration,
+                                     the environment condiguration,
 															 
 			             the download link of the dataset, 
 															 
