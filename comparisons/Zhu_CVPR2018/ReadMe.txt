@@ -2,7 +2,7 @@ Hi there, thank you for your kind attention of our project.
 
 This folder contains the comparison code [Zhu et al. CVPR2018] used in our paper.
 
-[Zhu et al. CVPR2018]Zhu, Hao, et al. View extrapolation of human body from a single image. CVPR. 2018.
+[Zhu et al. CVPR2018]: Zhu, Hao, et al. View extrapolation of human body from a single image. CVPR. 2018.
 
 We will give a detailed introduction of the folder's directory structure and environment condiguration of this code.
 
