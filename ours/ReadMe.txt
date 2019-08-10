@@ -36,6 +36,36 @@ Environment condiguration
 4. Matlab 2017a
 *******************************************************************
 
+*******************************************************************
+Code usage steps
+
+1. Download the dataset from the link: https://drive.google.com/drive/folders/1bvY6IMSn1whv6C0fcAaxglkfm77My-Wt?usp=sharing
+
+2. Using \view_synthesis\image_generation\scripts\data_generation to rendering images used for training and testing
+
+3. Using \view_synthesis\image_generation\scripts\data_convert to convert image's format from '.jpg' to '.pt'
+
+4. Moving the folder "torch" from "\view_synthesis\image_generation\data\PVHM" to "\view_synthesis\view_synthesis\data\PVHM"
+
+5. Using \view_synthesis\view_synthesis\scripts to train the first network
+
+6. Using \view_synthesis\view_synthesis\scripts2 to genrate the data used for fine-tuning
+
+7. Moving the folder "superdata" from "\view_synthesis\image_generation\data\PVHM" to "\super_resolution\DataConvert\data\PVHM"
+
+8. Using "\super_resolution\DataConvert\scripts" to convert image's format from '.jpg' to '.pt'
+
+9. Moving the folder "torch" from "\super_resolution\DataConvert\data\PVHM" to "\super_resolution\SRResNet\data\PVHM"
+
+10.Using "\super_resolution\SRResNet\scripts" to train the second network
+
+11.Moving "torch_super" from "\view_synthesis\view_synthesis\data\PVHM" to "\super_resolution\SRResNet\data\PVHM"
+
+12.Moving the last generated model in the directory "\super_resolution\SRResNet\data\PVHM\model" to "super_resolution\SRResNet\data\PVHM\retrain\model"
+
+13.Using "\super_resolution\SRResNet\scripts_retrain" to run the fine-tuning process
+*******************************************************************
+
 In these codes, the path for reading the data is temporarily set as our local path.
 
 Please remember to change it to your local path.
