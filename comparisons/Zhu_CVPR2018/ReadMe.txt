@@ -17,31 +17,31 @@ Folder's directory structure
 
 2. VSPV_train                                                Performing the training process
               
-			  --- model                                      The customization layer of the network
+			  --- model                          The customization layer of the network
 			  
-			  --- snapshot                                   This folder is used to store model weights
+			  --- snapshot                       This folder is used to store model weights
 			  
-			  --- solver                                     This folder contains three network models used in the paper
+			  --- solver                         This folder contains three network models used in the paper
 			  
-			  --- utility                                    This folder contains the functions used to running this network
+			  --- utility                        This folder contains the functions used to running this network
 			  
-			              --- project_functions.py           Used for the forward_flow 
+			  --- project_functions.py           Used for the forward_flow 
 			  
-			              --- remap_functions.py             Used to reset the image's resolution
+			  --- remap_functions.py             Used to reset the image's resolution
 			  
-			  --- forward_flow.py                            Used to generate the forward_flow, forward_mask and reampped_forward_flow
+			  --- forward_flow.py                Used to generate the forward_flow, forward_mask and reampped_forward_flow
 			  
-			  --- Tuple_build_clean.py                       Used to output the path (or directory) of the training dataset
+			  --- Tuple_build_clean.py           Used to output the path (or directory) of the training dataset
 
-			  --- train.py                                   Used for the training process
+			  --- train.py                       Used for the training process
 			  
 3. VSPV_test                                                 Performing the testing process
           
-		      --- final_image                                Used to storage the final output results
+		          --- final_image                    Used to storage the final output results
 			  
-			  --- resolution.py                              Used to reset the resolution of the final outputs
+			  --- resolution.py                  Used to reset the resolution of the final outputs
 			  
-			  --- my_test.py                                 Used for the testing process
+			  --- my_test.py                     Used for the testing process
 *******************************************************************
 
 *******************************************************************
