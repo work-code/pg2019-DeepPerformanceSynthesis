@@ -37,7 +37,11 @@ Environment condiguration
 *******************************************************************
 
 *******************************************************************
-Code usage steps
+Code usage steps:
+
+
+
+#################################################### Data Processing #########################################################
 
 1. Download the dataset from the link: https://drive.google.com/drive/folders/1bvY6IMSn1whv6C0fcAaxglkfm77My-Wt?usp=sharing
 
@@ -47,9 +51,17 @@ Code usage steps
 
 4. Moving the folder "torch" from "\view_synthesis\image_generation\data\PVHM" to "\view_synthesis\view_synthesis\data\PVHM"
 
+
+
+################################ Train the first network (*NOVEL-VIEW PREDICTION*) ###########################################
+
 5. Using \view_synthesis\view_synthesis\scripts to train the first network
 
 6. Using \view_synthesis\view_synthesis\scripts2 to genrate the data used for fine-tuning
+
+
+
+################################ Train the second network (*DETAIL ENHANCEMENT*) #############################################
 
 7. Moving the folder "superdata" from "\view_synthesis\image_generation\data\PVHM" to "\super_resolution\DataConvert\data\PVHM"
 
@@ -59,12 +71,20 @@ Code usage steps
 
 10.Using "\super_resolution\SRResNet\scripts" to train the second network
 
+
+
+################################ Run the fine-tuning process (*DETAIL ENHANCEMENT*) ###########################################
+
 11.Moving "torch_super" from "\view_synthesis\view_synthesis\data\PVHM" to "\super_resolution\SRResNet\data\PVHM"
 
 12.Moving the last generated model in the directory "\super_resolution\SRResNet\data\PVHM\model" to "super_resolution\SRResNet\data\PVHM\retrain\model"
 
 13.Using "\super_resolution\SRResNet\scripts_retrain" to run the fine-tuning process
+
+
 *******************************************************************
+
+
 
 In these codes, the path for reading the data is temporarily set as our local path.
 
