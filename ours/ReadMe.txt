@@ -17,11 +17,11 @@ Folder's directory structure
 
                         view_synthesis   --- scripts2                         Computing the dataset used for 'fine-tuning' process 
  
-3. super_resolution --- DataVonvert     --- scripts                           Converting images's (used in *DETAIL ENHANCEMENT*) format: from '.jpg' to '.pt' 
+3. super_resolution --- DataVonvert      --- scripts                          Converting images's (used in *DETAIL ENHANCEMENT*) format: from '.jpg' to '.pt' 
 
-4. super_resolution --- SRResNet        --- scripts                           Performing the training and testing processes of *DETAIL ENHANCEMENT*
+4. super_resolution --- SRResNet         --- scripts                          Performing the training and testing processes of *DETAIL ENHANCEMENT*
  
-                    --- SRResNet       --- scripts_retrain                    Performing the fine-tuning process of *DETAIL ENHANCEMENT*
+                    --- SRResNet         --- scripts_retrain                  Performing the fine-tuning process of *DETAIL ENHANCEMENT*
 *******************************************************************
 
 *******************************************************************
