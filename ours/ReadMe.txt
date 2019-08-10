@@ -15,7 +15,7 @@ Folder's directory structure
 
 2. view_synthesis  --- view_synthesis   --- scripts                          Performing the training and testing processes of *NOVEL-VIEW PREDICTION*
 
-                      view_synthesis   --- scripts2                          Computing the dataset used for 'fine-tuning' process 
+                       view_synthesis   --- scripts2                          Computing the dataset used for 'fine-tuning' process 
  
 3. super_resolution --- DataVonvert    --- scripts                           Converting images's (used in *DETAIL ENHANCEMENT*) format: from '.jpg' to '.pt' 
 
