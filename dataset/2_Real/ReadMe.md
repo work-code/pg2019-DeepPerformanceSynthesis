@@ -14,9 +14,9 @@ T_smaba: https://people.csail.mit.edu/drdaniel/mesh_animation/
 
 I_squat: https://people.csail.mit.edu/drdaniel/mesh_animation/
 
-Dan_Longjunmp3: http://cvssp.org/cvssp3d/
+Dan_Longjunmp3: https://cvssp.org/data/cvssp3d/
 
-dance_pop: http://cvssp.org/cvssp3d/
+dance_pop: https://cvssp.org/data/cvssp3d/
 
 All you need do is prepare a good network to download the data. ^_^ 
 
