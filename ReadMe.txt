@@ -2,7 +2,7 @@ Hi there, thank you for your kind attention of our work
 
 "Deep Video-Based Performance Synthesis from Sparse Multi-View Capture".
 
-This github page contains all the code and data used in our paper.
+This github page contains all the code and data used in our paper (including the code for all comparisons).
 
 We will give a detailed introduction of the folder's directory structure as follows.
 
