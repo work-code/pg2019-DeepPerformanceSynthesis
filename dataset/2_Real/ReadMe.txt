@@ -8,7 +8,7 @@ Due to the fact that the authors of these datasets do not allow us to redistribu
 
 we will provide the links to download these datasets.
 
-We feel deep sorry for this point.
+We feel deeply sorry for this point.
 
 T_smaba: https://people.csail.mit.edu/drdaniel/mesh_animation/
 
